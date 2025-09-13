@@ -1,0 +1,4 @@
+pymongo>=4.0
+python-dotenv>=1.0
+typer>=0.9
+rich>=12.0        # optional: for better console formatting
