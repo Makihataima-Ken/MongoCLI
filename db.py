@@ -6,9 +6,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-MONGO_URI = os.getenv("MONGO_URI", "mongodb://localhost:27017")
-DB_NAME = os.getenv("DB_NAME", "crud_app")
-COLLECTION_NAME = os.getenv("COLLECTION_NAME", "people")
+MONGO_URI = os.getenv("MONGO_URI")
+DB_NAME = os.getenv("DB_NAME")
+COLLECTION_NAME = os.getenv("COLLECTION_NAME")
 
 _client: Optional[MongoClient] = None
 
